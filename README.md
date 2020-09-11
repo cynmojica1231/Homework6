@@ -1,46 +1,37 @@
-# 06 Server-Side APIs: Weather Dashboard
+# Weather Dashboard App
 
-Developers are often tasked with retrieving data from another application's API and using it in the context of their own. Third-party APIs allow developers to access their data and functionality by making requests with specific parameters to a URL. Your challenge is to build a weather dashboard that will run in the browser and feature dynamically updated HTML and CSS.
+A weather dashboard with search functionality to find current weather conditions and the future weather outlook for multiple cities.
 
-Use the [OpenWeather API](https://openweathermap.org/api) to retrieve weather data for cities. The documentation includes a section called "How to start" that will provide basic setup and usage instructions. Use `localStorage` to store any persistent data.
+# Purpose
 
-## User Story
+Build my first app using an API. Retrieve data from a third-party weather API (OpenWeather API) and using it in context.
 
-```
-AS A traveler
-I WANT to see the weather outlook for multiple cities
-SO THAT I can plan a trip accordingly
-```
+# Functionality
 
-## Acceptance Criteria
+Build a weather dashboard application with search functionality to find current weather conditions and the future weather outlook for multiple cities.
 
-```
-GIVEN a weather dashboard with form inputs
-WHEN I search for a city
-THEN I am presented with current and future conditions for that city and that city is added to the search history
-WHEN I view current weather conditions for that city
-THEN I am presented with the city name, the date, an icon representation of weather conditions, the temperature, the humidity, the wind speed, and the UV index
-WHEN I view the UV index
-THEN I am presented with a color that indicates whether the conditions are favorable, moderate, or severe
-WHEN I view future weather conditions for that city
-THEN I am presented with a 5-day forecast that displays the date, an icon representation of weather conditions, the temperature, and the humidity
-WHEN I click on a city in the search history
-THEN I am again presented with current and future conditions for that city
-WHEN I open the weather dashboard
-THEN I am presented with the last searched city forecast
-```
+[Deployed Link](https://cynmojica1231.github.io/Homework6/)
 
-The following image demonstrates the application functionality:
+# Weather dashboard Screenshots
 
-![weather dashboard demo](./Assets/06-server-side-apis-homework-demo.png)
+![Display Search](./Assets/images/weather-screenshot.png)
 
-## Review
+# Resources
 
-You are required to submit the following for review:
+This page was built using the API created and provided by [Open Weather](https://openweathermap.org/). It uses their APIs for current weather, 5 day / 3 hour weather forecast, and UV Index.
 
-* The URL of the deployed application.
+The geolocation API is built into the [Chrome](https://www.google.com/chrome/) web browser.
 
-* The URL of the GitHub repository. Give the repository a unique name and include a README describing the project.
+[https://getbootstrap.com/](https://getbootstrap.com/) - Bootstrap framework <br>
+[https://fontawesome.com/](https://fontawesome.com/) - Fontawesome framework <br>
+[https://jquery.com/](https://jquery.com/) - jQuery library <br>
 
-- - -
-© 2019 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
+# License
+
+Licensed under the [MIT](https://github.com/twopcz/HW-6/blob/master/LICENSE.txt) license.
+
+# References
+
+[https://developer.mozilla.org/en-US/](https://developer.mozilla.org/en-US/) - Various documentation <br>
+[https://stackoverflow.com/](https://stackoverflow.com) - Questions & Answers <br>
+[https://en.wikipedia.org/](https://en.wikipedia.org/wiki/Ultraviolet_index) - Ultraviolet Index Informat
