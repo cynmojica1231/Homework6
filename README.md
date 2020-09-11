@@ -18,17 +18,8 @@ Build a weather dashboard application with search functionality to find current 
 
 # Resources
 
-This page was built using the API created and provided by [Open Weather](https://openweathermap.org/). It uses their APIs for current weather, 5 day / 3 hour weather forecast, and UV Index.
-
-The geolocation API is built into the [Chrome](https://www.google.com/chrome/) web browser.
+[Open Weather](https://openweathermap.org/). It uses their APIs for current weather, 5 day / 3 hour weather forecast, and UV Index.
+[Chrome](https://www.google.com/chrome/) web browser.
 
 [https://getbootstrap.com/](https://getbootstrap.com/) - Bootstrap framework <br>
-[https://fontawesome.com/](https://fontawesome.com/) - Fontawesome framework <br>
 [https://jquery.com/](https://jquery.com/) - jQuery library <br>
-
-
-# References
-
-[https://developer.mozilla.org/en-US/](https://developer.mozilla.org/en-US/) - Various documentation <br>
-[https://stackoverflow.com/](https://stackoverflow.com) - Questions & Answers <br>
-[https://en.wikipedia.org/](https://en.wikipedia.org/wiki/Ultraviolet_index) - Ultraviolet Index Informat
