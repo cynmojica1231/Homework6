@@ -61,8 +61,7 @@ $(document).ready(function () {
       var windSpeed = results.wind.speed;
       var date = new Date(results.dt * 1000).toLocaleDateString("en-US");
       var weatherIcon = results.weather[0].icon;
-      var weatherIconURL =
-        "http://openweathermap.org/img/wn/" + weatherIcon + ".png";
+      var weatherIconURL = getWeatherIcon + weatherIcon + ".png";
 
       storeHistory(name);
 
