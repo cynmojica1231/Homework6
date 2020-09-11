@@ -37,12 +37,7 @@ $(document).ready(function () {
   }
 
   function getWeather(search) {
-    var queryURL =
-      "https://api.openweathermap.org/data/2.5/weather?" +
-      "q=" +
-      search +
-      units +
-      "&appid=28870b55a52a06273a2463ffab2469f7";
+    var queryURL = weatherAPI + "q=" + search + units + APIkey;
 
     $.ajax({
       url: queryURL,
