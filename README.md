@@ -26,9 +26,6 @@ The geolocation API is built into the [Chrome](https://www.google.com/chrome/) w
 [https://fontawesome.com/](https://fontawesome.com/) - Fontawesome framework <br>
 [https://jquery.com/](https://jquery.com/) - jQuery library <br>
 
-# License
-
-Licensed under the [MIT](https://github.com/twopcz/HW-6/blob/master/LICENSE.txt) license.
 
 # References
 
